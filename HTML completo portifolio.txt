@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="proprieties.css">
+    <link rel="stylesheet" href="KeyFrames.css">
+    <title>Portfólio Vitor</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+        <header>
+            <div class="img-wrapper">
+                <img src="backgroundimg.jpg" alt="">
+            </div>
+            <div class="banner">    
+                <h1 class="title-style">Portifólio Pessoal</h1>  
+                <p>Vitor Campos</p>
+                <button class="ButtonCustom" id="button-banner"><a href="#sobremim">Saiba mais</a></button>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="index.html" class="menu-link">home</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#sobremim" class="menu-link">perfil</a></li>
+                    <li id="menu-6" class="menu-item"><a id="Close-menu" href="#conhecimentos" class="menu-link">conhecimentos</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projetos" class="menu-link">projetos</a></li>
+                    <li id="menu-4" class="menu-item"><a id="Close-menu" href="#contato" class="menu-link">contato</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#orcamento" class="menu-link">orçamento</a></li>
+                                 
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="github_img" href="https://github.com/VitorCamposAds">
+                    <img class="github_img" src="github.png" alt="Logotipo do GitHub">
+                </a>
+                <a id="github_img" href="https://www.linkedin.com/in/vitor-campos-tech">
+                    <img class="github_img" src="linkedin_hamburguer.png" alt="Logotipo do LinkedIn"> 
+                </a>
+            </div>
+        </aside>
+        <section class="secao-sobremim">
+            <div class="sessao-header" id="sobremim">
+                <h1>PERFIL</h1>
+            </div>
+            <div>
+                <img src="vitor.png" alt="Minha Foto" class="profile-image">
+                <br>
+                <div class="about-me-text">
+                    <div class="intro-container">
+                        <div class="skill-card">
+                            <p style="text-align: justify;">
+                                <br>
+                                <div style="text-align: center; font-weight: bold;">Sobre Mim</div>
+                                <br>
+                                Minha trajetória acadêmica começou em 2008 com a graduação em Relações Internacionais e um mestrado em 2016. Essa formação, combinada à minha experiência em consulados e comércio exterior, agora converge para a Análise de Dados. Essa transição foi impulsionada pela minha graduação em Análise e Desenvolvimento de Sistemas e um MBA em Data Science e Analytics.
+                                <br><br>
+                                Atualmente, estou consolidando minhas habilidades na formação Analista de Dados da Comunidade DS. Seus projetos práticos, a imersão nas necessidades do mercado e a rica troca de experiências dentro da Comunidade me permitem transformar dados em insights e soluções eficientes, unindo minha base estratégica à expertise técnica.
+                                <br><br>
+                                Neste ponto da minha carreira sinto-me confiante para atuar como Analista de Dados em qualquer organização, gerando valor aplicando meu conhecimento por meio do uso de ferramentas analíticas como Python, SQL, PowerBI e Excel. Com abordagem orientada a dados e focada em resolução de problemas, entrego relatórios concisos, dinâmicos, práticos e eficientes.
+                                <br><br>
+                                ________________________________________
+                                <br><br>
+                                <strong>Minhas Habilidades Técnicas:</strong>
+                                <br><br>
+                                • Ambiente de Desenvolvimento: Linux, Windows.<br>
+                                • Banco de Dados: MySQL, PostgreSQL, SQL Server.<br>
+                                • Ferramentas Analíticas: Excel, Power BI, Python, SQL.<br>
+                                • Ferramentas de Versionamento: Git, GitHub.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header" id="conhecimentos">
+                <h1 class="title-style">Ferramentas</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fa-solid fa-file-excel"></i>
+                        <h3>Excel</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Excel para análise de dados, com domínio de fórmulas, tabelas dinâmicas e criação de dashboards interativos que facilitam a tomada de decisões em contextos que exigem agilidade.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <img src="Power_bi_logo_black.svg" alt="Power BI" class="icon-powerbi" />
+                        <h3>PowerBI</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Uso o PowerBI para transformar dados brutos em dashboards claros, interativos e eficientes, comunicando insights de forma visual e impactante.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                <div class="conhecimento-header">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+                    <div class="conhecimento-text">
+                        <p>Estruturo e otimizo consultas SQL para manipular e analisar dados de forma eficiente, gerando insights claros que apoiam decisões de negócio.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Com bibliotecas como Pandas, Seaborn e Streamlit, transformo dados complexos em visualizações interativas e insights acessíveis. Essa abordagem torna a informação clara, orienta decisões e gera valor estratégico para o negócio.</p>
+                    </div>
+                </div>
+                <div class="imagemFundo">
+                    <i class="fa-solid fa-laptop-code"></i>                
+                </div>
+            </div>
+        </section>
+        <section class="sessao-projetos" id="projetos">
+            <div class="projetos-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="cards">
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="proj.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto1</h2>
+                            <h3>Spring Boot/Java</h3>
+                            <P>Solução Java SpringBoot para gestão eficiente de estoque: robusta, escalável e intuitiva.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="proj2.png" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto2</h2>
+                            <h3>Machine Learning</h3>
+                            <P>Projeto de Machine Learning: CNN para identificação de pneumonia em radiografias pulmonares com alta precisão.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="proj3.png" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto3</h2>
+                            <h3>HTML, CSS</h3>
+                            <P>Desenvolvimento de Websites com HTML e CSS: Design elegante e funcional para uma presença online impactante.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="proj4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto4</h2>
+                            <h3>Python/Django</h3>
+                            <P>Desenvolvimento de Sistemas com Django: Soluções Python robustas e escaláveis para atender todas as demandas do seu negócio.</P>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </section>        
+        <section class="section-contact" id="contato">
+            <div class="contact-wrapper" data-anime="up">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1>contato</h1>
+                    <form class="form-contact" action="https://formcarry.com/s/SDOjeiClfWV" method="POST">
+                        <div class="input-group">
+                            <input id="nome" type="text" class="field" name="nome">
+                            <label  for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" type="email" class="field" name="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="mensagem" class="field" name="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="ButtonCustom" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>                
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Faça seu orçamento</h1>
+                </div>
+                <form class="form-budget">
+                    <div class="qtde-page" data-anime="right" >
+                        <label for="qtde">Quantidade de páginas:</label> 
+                        <input type="number" name="qtde" id="qtde" min="1" max="100"> <br/><br/>
+                        <label for="js">Preciso de um script JS:</label>
+                        <input class="check" checked="" type="checkbox" name="js" id="js"> <br/><br/><br/> 
+                    </div>
+                    <div class="group-layout" data-anime="up">
+                        <label>Layout</label> 
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Sim, preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-não">Não preciso de um layout</label>
+                        </div><br/>
+                        <div>
+                            <label for="prazo">Prazo</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">enviar</button>
+                        </div>
+                        <label id="preco"> R$ 0,00</label>    
+                    </div>    
+                </form>
+            </div>
+        </section> 
+        <footer>
+            <p>OBRIGADO PELA VISITA</p>
+        </footer>                                     
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

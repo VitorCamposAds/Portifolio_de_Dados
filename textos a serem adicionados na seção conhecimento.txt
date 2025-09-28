@@ -1,0 +1,19 @@
+<h2 class="section-title">CSS e HTML5: Construindo Experiências Visuais</h2>
+                            <p>A criação de interfaces envolventes e visualmente atraentes é uma das minhas paixões. Com domínio em CSS e HTML5, tenho a capacidade de traduzir conceitos de design em realidade digital, criando sites e aplicativos que não apenas funcionam bem, mas também cativam os usuários desde o primeiro clique.</p>
+                            
+                            <h2 class="section-title">JavaScript: Interatividade e Dinamismo</h2>
+                            <p>JavaScript é a espinha dorsal da interatividade na web moderna. Com meu conhecimento profundo desta linguagem, posso adicionar camadas de interatividade e dinamismo aos meus projetos, tornando a experiência do usuário mais fluida e envolvente.</p>
+                            
+                            <h2 class="section-title">Python: Poder da Simplicidade</h2>
+                            <p>Python é uma ferramenta versátil e poderosa, capaz de resolver uma ampla gama de problemas. Com sua sintaxe clara e expressiva, posso desenvolver aplicações robustas, desde scripts simples até sistemas complexos de gerenciamento de dados.</p>
+                            
+                            <h2 class="section-title">Java: Confiabilidade e Escalabilidade</h2>
+                            <p>Java é uma escolha sólida para o desenvolvimento de aplicativos empresariais devido à sua confiabilidade e escalabilidade. Com meu conhecimento em Java, estou apto a criar soluções robustas e de alto desempenho que atendam às demandas das organizações modernas.</p>
+                            
+                            <h2 class="section-title">Além das Linguagens: Uma Mentalidade de Resolução de Problemas</h2>
+                            <p>Além do domínio técnico das linguagens e ferramentas, trago uma mentalidade de resolução de problemas para cada projeto que abordo. Estou sempre buscando maneiras criativas de superar desafios e alcançar os melhores resultados possíveis para meus clientes e parceiros.</p>
+                            
+                            <h2 class="section-title">Vamos Criar Algo Incrível Juntos!</h2>
+                            <p>Se você está em busca de um profissional dedicado, apaixonado e comprometido com a excelência em Tecnologia da Informação, estou pronto para colaborar com você. Vamos juntos transformar ideias em realidade e criar algo verdadeiramente incrível.</p>
+                            
+                            <p>Se você gostaria de saber mais sobre meu trabalho ou discutir oportunidades de colaboração, por favor, entre em contato. Estou ansioso para ouvir de você!</p>
