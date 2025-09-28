@@ -1045,6 +1045,7 @@ p {
 
 
 /* FOOTER */
+/* FOOTER */
 footer {
   width: 100%;
   background-color: #000;
@@ -1055,10 +1056,11 @@ footer {
 .footer--area {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex; /* Agora os itens ficam lado a lado */
+  display: flex; /* Os itens ficam lado a lado */
   justify-content: space-between; /* Um no início, um no centro, um no final */
   align-items: center;
   padding: 0 20px;
+  flex-wrap: wrap; /* Permite que os itens quebrem em novas linhas em telas menores */
 }
 
 .footer--item {
@@ -1071,6 +1073,30 @@ footer {
   flex: 1;
 }
 
+
+/* Media Queries para telas menores */
+@media (max-width: 580px) {
+  .footer--area {
+    flex-direction: column; /* Organiza os itens em uma coluna em telas pequenas */
+    align-items: center;
+  }
+
+  .footer--item {
+    font-size: 12px; /* Diminui o tamanho da fonte em telas menores */
+    text-align: center; /* Centraliza o texto */
+    margin: 5px 0; /* Ajusta o espaçamento entre os itens */
+  }
+
+  .footer--item.left,
+  .footer--item.right {
+    text-align: center; /* Garante que os itens à esquerda e à direita fiquem centralizados */
+    margin-bottom: 10px; /* Ajusta a margem para espaçar mais os itens */
+  }
+
+  .footer--item.center {
+    margin-top: 10px; /* Um pequeno espaço no topo para o item central */
+  }
+}
 
 
 /* Media Queries */
@@ -1131,26 +1157,6 @@ footer {
     .budget-wrapper {
         width: 22rem
     }
-
-    .footer--area {
-        display:block;
-    }
-
-    .footer-social {
-        justify-content:center;
-        margin-bottom: 15px;
-    }
-
-    .footer--item.area2 {
-        text-align: center;
-        margin-bottom: 15px;
-        padding:8px;
-        
-    }
-    .footer--item.align-left {
-        text-align: center;
-    }
-
 
     .qtde-page,
     .group-layout {
